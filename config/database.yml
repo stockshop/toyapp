@@ -7,22 +7,23 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  username: stockshop
-  password: stockshoppassword
+  username: civmvcmczllcig
+  password:  1YgAO5FBvNKy2qUHXn6vyVjsWD
+  host: localhost
   pool: 5
   timeout: 5000
 
 development:
   <<: *default
-  database: toyapp_development
+  database: de0cvrpie4tbfj
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: toyapp_test
+  database: de0cvrpie4tbfj
 
 production:
   <<: *default
-  database: toyapp_production
+  database: de0cvrpie4tbfj
